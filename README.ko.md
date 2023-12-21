@@ -1,17 +1,32 @@
 # homebrew-egovframe
 
 ## 소개
-homebrew-egovframe 저장소는 homebrew-cask 저장소에서 발생한 문제에 대응하여 생성되었습니다. ARM 기반의 macOS에서는 소프트웨어가 서명되어야 합니다. 현재로서는 상위 개발자가 소프트웨어를 서명하고 공증하지 않았습니다. 이 저장소는 그 프로세스가 완료될 때까지 일시적인 해결책으로 제공됩니다. 소프트웨어가 서명 및 공증되면 사용자는 homebrew-cask 저장소에서 직접 설치할 수 있습니다.
+이곳은 eGovFrame의 Homebrew 탭(제3자 저장소)입니다. 여기에는 eGovFrame의 통합 개발 환경(IDE)용 Cask들이 포함되어 있습니다.
 
-- [https://github.com/Homebrew/homebrew-cask/pull/155972](https://github.com/Homebrew/homebrew-cask/pull/155972)
-
-## egovframe에 대하여
+## eGovFrame에 대하여
 - 이름: egovframe
-- 설명: 대한민국에서 제공하는 웹 기반 공공 서비스 개발을 위한 오픈소스 프레임워크입니다.
-- 홈페이지: https://www.egovframe.go.kr/
+- 설명: eGovFrame은 대한민국 정부에서 제공하는 오픈 소스 프레임워크입니다. 이는 웹 기반 공공 서비스 개발을 위해 설계되었습니다. 정부 표준 개발 플랫폼으로서, eGovFrame은 공공 부문 IT 프로젝트에 중요한 역할을 합니다. 전 세계의 사용자가 사용할 수 있도록 공개되어 있습니다.
+- 홈페이지: [eGovFrame 공식 웹사이트](https://www.egovframe.go.kr/)
 
 ## 사용 방법
-``` bash
-brew tap egovframework/egovframe
-brew install --cask egovframe
+
+eGovFrame IDE의 최신 버전을 설치하려면:
+
+```bash
+brew install --cask egovframe-ide
 ```
+
+특정 버전의 eGovFrame IDE를 설치하려면 다음 단계를 따르세요:
+
+1. Homebrew에 eGovFramework 탭을 추가합니다:
+   ```bash
+   brew tap egovframework/egovframe
+   ```
+2. 원하는 버전의 eGovFrame IDE를 설치합니다:
+   ```bash
+   brew install --cask egovframe-ide@4.1.0
+   brew install --cask egovframe-ide@4.0.0
+   brew install --cask egovframe-ide@3.10.0
+   ```
+
+버전을 지정하는 것은 선택사항입니다. 생략하면 최신 버전이 설치됩니다.
