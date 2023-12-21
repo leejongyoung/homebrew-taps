@@ -12,6 +12,8 @@ Welcome to eGovFrame's Homebrew Tap, an external repository for Homebrew. This T
 
 ### For the Latest Version of eGovFrame IDE:
 
+Simply run the following command in your terminal:
+
 ```bash
 brew install egovframedev
 ```
