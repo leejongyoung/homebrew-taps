@@ -13,7 +13,7 @@ Welcome to eGovFrame's Homebrew Tap, an external repository for Homebrew. This T
 To install the latest version of eGovFrame IDE:
 
 ```bash
-brew install --cask egovframedev
+brew install egovframedev
 ```
 
 To install a specific version of eGovFrame IDE, follow these steps:
