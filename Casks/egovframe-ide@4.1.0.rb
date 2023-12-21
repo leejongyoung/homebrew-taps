@@ -10,12 +10,6 @@ cask "egovframe-ide@4.1.0" do
   desc "Open-source framework by South Korea for web-based public service development"
   homepage "https://www.egovframe.go.kr/"
 
-  livecheck do
-    url "https://www.egovframe.go.kr/home/sub.do?menuNo=39"
-    regex(/개발환경 (\d+\.\d+\.\d+) 플러그인/i)
-    strategy :page_match
-  end
-
   app "eGovFrameDev-#{version}-Mac-#{arch}.app"
 
   zap trash: [
