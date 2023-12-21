@@ -1,9 +1,7 @@
 # homebrew-egovframe
 
 ## Introduction
-The `homebrew-egovframe` repository was initiated in response to the challenges encountered in the `homebrew-cask` repository. macOS on ARM mandates that software be signed. As of now, the upstream developer has not yet signed and notarized their software. This repository serves as a temporary solution until that process is complete. Once the software is signed and notarized, users will be able to install it directly from the `homebrew-cask` repository.
-
-- [https://github.com/Homebrew/homebrew-cask/pull/155972](https://github.com/Homebrew/homebrew-cask/pull/155972)
+This is a eGovFrame's Hemobrew Tap (third-party repositories). It contains Casks of eGovFrame's IDE.
 
 ## About egovframe
 - Name: egovframe
@@ -12,7 +10,16 @@ The `homebrew-egovframe` repository was initiated in response to the challenges 
 
 ## How to Use
 
+If you want to install the most recent version
+``` bash
+brew install --cask egovframe-ide
+```
+
+If you want to install a specific version
+
 ``` bash
 brew tap egovframework/egovframe
 brew install --cask egovframe-ide@4.1.0
+brew install --cask egovframe-ide@4.0.0
+brew install --cask egovframe-ide@3.10.0
 ```
