@@ -24,9 +24,9 @@ To install a specific version of eGovFrame IDE, follow these steps:
    ```
 2. Install the desired version of eGovFrame IDE:
    ```bash
-   brew install --cask egovframe-ide@4.1.0
-   brew install --cask egovframe-ide@4.0.0
-   brew install --cask egovframe-ide@3.10.0
+   brew install --cask egovframedev@4.1.0
+   brew install --cask egovframedev@4.0.0
+   brew install --cask egovframedev@3.10.0
    ```
 
 Please note that specifying the version is optional. If omitted, the latest version will be installed.
