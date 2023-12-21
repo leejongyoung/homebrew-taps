@@ -24,9 +24,9 @@ brew install egovframedev
    ```
 2. 원하는 버전의 eGovFrame IDE를 설치합니다:
    ```bash
-   brew install --cask egovframedev@4.1.0
-   brew install --cask egovframedev@4.0.0
-   brew install --cask egovframedev@3.10.0
+   brew install egovframedev@4.1.0
+   brew install egovframedev@4.0.0
+   brew install egovframedev@3.10.0
    ```
 
 버전을 지정하는 것은 선택사항입니다. 생략하면 최신 버전이 설치됩니다.
