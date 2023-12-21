@@ -1,25 +1,32 @@
 # homebrew-egovframe
 
 ## Introduction
-This is a eGovFrame's Hemobrew Tap (third-party repositories). It contains Casks of eGovFrame's IDE.
+Welcome to eGovFrame's Homebrew Tap, an external repository for Homebrew. This Tap is dedicated to hosting Casks for eGovFrame's Integrated Development Environment (IDE).
 
-## About egovframe
-- Name: egovframe
-- Description: An open-source framework provided by South Korea for the development of web-based public services.
-- Homepage: https://www.egovframe.go.kr/
+## About eGovFrame
+- Name: eGovFrame
+- Description: eGovFrame is an open-source framework provided by the government of South Korea. It is designed for the development of web-based public services. As a government-standardized development platform, eGovFrame plays a crucial role in IT projects within the public sector in Korea. Its global availability allows it to be utilized by users worldwide.
+- Homepage: [eGovFrame Official Website](https://www.egovframe.go.kr/)
 
 ## How to Use
 
-If you want to install the most recent version
-``` bash
+To install the latest version of eGovFrame IDE:
+
+```bash
 brew install --cask egovframe-ide
 ```
 
-If you want to install a specific version
+To install a specific version of eGovFrame IDE, follow these steps:
 
-``` bash
-brew tap egovframework/egovframe
-brew install --cask egovframe-ide@4.1.0
-brew install --cask egovframe-ide@4.0.0
-brew install --cask egovframe-ide@3.10.0
-```
+1. Add the eGovFramework Tap to your Homebrew:
+   ```bash
+   brew tap egovframework/egovframe
+   ```
+2. Install the desired version of eGovFrame IDE:
+   ```bash
+   brew install --cask egovframe-ide@4.1.0
+   brew install --cask egovframe-ide@4.0.0
+   brew install --cask egovframe-ide@3.10.0
+   ```
+
+Please note that specifying the version is optional. If omitted, the latest version will be installed.
