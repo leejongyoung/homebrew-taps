@@ -1,4 +1,4 @@
-cask "egovframe-ide@3.10.0" do
+cask "egovframedev@3.10.0" do
 
   version "3.10.0"
   sha256 "c0b36911ba9e527d7f6f87481b183fcf2095756c0b84e36ce28c33c9094feb32"
