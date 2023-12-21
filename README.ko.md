@@ -1,7 +1,7 @@
 # homebrew-egovframe
 
 ## 소개
-이곳은 eGovFrame의 Homebrew 탭(제3자 저장소)입니다. 여기에는 eGovFrame의 통합 개발 환경(IDE)용 Cask들이 포함되어 있습니다.
+이곳은 eGovFrame의 Homebrew Tap(3rd party repository)입니다. 여기에는 eGovFrame의 통합 개발 환경(IDE)용 Cask들이 포함되어 있습니다.
 
 ## eGovFrame에 대하여
 - 이름: egovframe
