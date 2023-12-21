@@ -32,4 +32,4 @@ brew install egovframedev
 버전을 지정하는 것은 선택사항입니다. 생략하면 최신 버전이 설치됩니다.
 
 ## 앱 설치 경로
-/Applications/ "응용 프로그램" 디렉토리 아래에 설치되며 "eGovFrameDev-X.X.0-Mac.app" 형식의 앱이름으로 확인 가능합니다.
+/Applications/ "응용 프로그램" 디렉토리 아래에 설치되며, "eGovFrameDev-X.X.0-Mac.app" 형식의 앱 이름으로 확인 가능합니다.
