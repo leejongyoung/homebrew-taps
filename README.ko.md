@@ -13,7 +13,7 @@
 eGovFrame IDE의 최신 버전을 설치하려면:
 
 ```bash
-brew install --cask egovframe-ide
+brew install --cask egovframedev
 ```
 
 특정 버전의 eGovFrame IDE를 설치하려면 다음 단계를 따르세요:
