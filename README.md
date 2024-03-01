@@ -14,7 +14,11 @@ Welcome to eGovFrame's Homebrew Tap, an external repository for Homebrew. This T
 
 Simply run the following command in your terminal:
 ```bash
+# homebrew official repo (homebrew/homebrew-cask)
 brew install egovframedev
+
+# egovframework repo (egovframework/homebrew-egovfarme)
+brew install egovframework/egovframe/egovframedev
 ```
 
 ### For Specific Versions of eGovFrame IDE:

@@ -1,4 +1,4 @@
-cask "egovframedev@4.2.0" do
+cask "egovframedev" do
   arch arm: "AArch64", intel: "x86_64"
 
   version "4.2.0"
@@ -9,6 +9,13 @@ cask "egovframedev@4.2.0" do
   name "eGovFrameDev"
   desc "Open-source framework by South Korea for web-based public service development"
   homepage "https://www.egovframe.go.kr/"
+
+  livecheck do
+    url "https://www.egovframe.go.kr/home/sub.do?menuNo=39"
+    regex(/개발자용\s개발환경\s(\d+(?:\.\d+)+).*/i)
+  end
+
+  depends_on macos: ">= :big_sur"
 
   app "eGovFrameDev-#{version}-Mac-#{arch}#{on_intel do
                                               "_dpit"
