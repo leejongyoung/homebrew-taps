@@ -10,9 +10,7 @@ cask "egovframedev@4.2.0" do
   desc "Open-source framework by South Korea for web-based public service development"
   homepage "https://www.egovframe.go.kr/"
 
-  app "eGovFrameDev-#{version}-Mac-#{arch}#{on_intel do
-                                              "_dpit"
-                                            end}.app"
+  app on_arch_conditional arm: "eGovFrameDev-#{version}-Mac-#{arch}.app", intel: "eGovFrameDev-#{version}-Mac-#{arch}_dpit.app"
 
   zap trash: [
     "~/Library/Preferences/org.eclipse.platform.ide.plist",
