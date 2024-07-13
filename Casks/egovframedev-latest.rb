@@ -1,4 +1,4 @@
-cask "egovframedev@4.2.0" do
+cask "egovframedev-latest" do
   arch arm: "AArch64", intel: "x86_64"
 
   version "4.2.0"
@@ -10,7 +10,14 @@ cask "egovframedev@4.2.0" do
   desc "Open-source framework by South Korea for web-based public service development"
   homepage "https://www.egovframe.go.kr/"
 
-  app on_arch_conditional arm: "eGovFrameDev-#{version}-Mac-#{arch}.app", intel: "eGovFrameDev-#{version}-Mac-#{arch}_dpit.app"
+  livecheck do
+    url "https://www.egovframe.go.kr/home/sub.do?menuNo=39"
+    regex(/개발자용\s개발환경\s(\d+(?:\.\d+)+).*/i)
+  end
+
+  depends_on macos: ">= :big_sur"
+
+  app "eGovFrameDev-#{version}-Mac-#{arch}.app"
 
   zap trash: [
     "~/Library/Preferences/org.eclipse.platform.ide.plist",
